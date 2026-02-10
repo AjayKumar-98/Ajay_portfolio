@@ -13,6 +13,7 @@ const Skills = () => {
     { name: 'JavaScript', level: 85, color: 'from-yellow-500 to-orange-500' },
     { name: 'HTML', level: 95, color: 'from-orange-500 to-red-500' },
     { name: 'CSS', level: 90, color: 'from-blue-600 to-purple-600' },
+    { name: 'REDUX', level: 82, color: 'from-purple-500 to-pink-500' },
     { name: 'Tailwind CSS', level: 88, color: 'from-teal-500 to-blue-500' },
     { name: 'Django', level: 75, color: 'from-green-600 to-emerald-600' },
     { name: 'MySQL', level: 80, color: 'from-blue-700 to-indigo-700' },
@@ -80,7 +81,7 @@ const Skills = () => {
                 <h3 className="text-lg font-semibold text-gray-800">{skill.name}</h3>
                 <span className="text-sm font-medium text-gray-600">{skill.level}%</span>
               </div>
-              
+
               <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
                 <motion.div
                   initial={{ width: 0 }}
