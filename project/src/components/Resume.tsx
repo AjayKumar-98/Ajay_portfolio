@@ -112,12 +112,12 @@ const Resume = () => {
               Ready to learn more about my experience?
             </h3>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              Download my comprehensive resume to see my full work history, education, 
+              Download my comprehensive resume to see my full work history, education,
               certifications, and detailed project descriptions.
             </p>
 
             <motion.a
-              href="/AjayKumarCV.docx"
+              href="/AJAYKUMARCV.docx"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
