@@ -43,8 +43,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      value: 'punnaajay786@gmail.com',
-      href: 'mailto:punnaajay786@gmail.com',
+      value: 'punnaajay25@gmail.com',
+      href: 'mailto:punnaajay25@gmail.com',
       color: 'from-red-500 to-pink-500'
     },
     {
