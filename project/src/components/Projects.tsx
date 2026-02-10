@@ -10,16 +10,7 @@ const Projects = () => {
   });
 
   const projects = [
-    {
-      title: 'University Management System',
-      description: 'Comprehensive system with multiple dashboards for Vice-Principal and Placement Training Office management. Streamlines academic and administrative operations with secure authentication.',
-      tech: ['React', 'JavaScript', 'HTML', 'CSS', 'MySQL', 'Django'],
-      links: [
-        { name: 'Vice-Principal Dashboard', url: 'https://vice-principal.vercel.app/' },
-        { name: 'Placement Dashboard', url: 'https://placementtrainingofficedashboard.vercel.app/' }
-      ],
-      gradient: 'from-blue-500 to-purple-600'
-    },
+
     {
       title: 'Attendance Portal',
       description: 'Real-time attendance tracking system with comprehensive data visualization, automated report generation, and intuitive dashboard for monitoring student attendance patterns.',
@@ -30,21 +21,34 @@ const Projects = () => {
       gradient: 'from-green-500 to-teal-600'
     },
     {
-      title: 'Forest Fire Detection System',
-      description: 'CNN-based intelligent system for detecting fire and smoke from surveillance footage using computer vision and deep learning techniques for early warning systems.',
-      tech: ['Python', 'TensorFlow', 'Keras', 'OpenCV'],
+      title: 'SaaS Admin Dashboard',
+      description: 'Full-stack SaaS admin dashboard for managing users, monitoring business metrics, and visualizing analytics with secure role-based authentication and scalable backend architecture.',
+      tech: [
+        'React',
+        'Vite',
+        'Tailwind CSS',
+        'Node.js',
+        'Express.js',
+        'MongoDB',
+        'Mongoose',
+        'JWT Authentication',
+        'Recharts'
+      ],
       links: [
         { name: 'View Project', url: '#' }
       ],
+
       gradient: 'from-red-500 to-orange-600'
     },
     {
-      title: 'NLP Automation Examination System',
-      description: 'Intelligent examination system with automatic question generation, smart evaluation algorithms, and comprehensive reporting using natural language processing.',
-      tech: ['Python', 'NLP', 'Django', 'Flask', 'SQL'],
+      title: 'HireNest – Job Portal Platform',
+      description: 'Full-stack job portal enabling candidates to search and apply for jobs and recruiters to post jobs, manage applicants, and track application status with role-based authentication.',
+      tech: ['React', 'TypeScript', 'Redux Toolkit', 'Node.js', 'Express', 'MongoDB', 'JWT'],
       links: [
-        { name: 'View Project', url: '#' }
+        { name: 'View Project', url: 'https://hire-nest-job-portal-g3yj.vercel.app/' }
       ],
+
+
       gradient: 'from-purple-500 to-pink-600'
     }
   ];
@@ -107,7 +111,7 @@ const Projects = () => {
             >
               {/* Project Header */}
               <div className={`h-2 bg-gradient-to-r ${project.gradient}`} />
-              
+
               <div className="p-8">
                 <motion.h3
                   whileHover={{ scale: 1.05 }}
@@ -115,7 +119,7 @@ const Projects = () => {
                 >
                   {project.title}
                 </motion.h3>
-                
+
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {project.description}
                 </p>
