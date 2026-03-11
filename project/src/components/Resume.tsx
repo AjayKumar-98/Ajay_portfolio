@@ -117,7 +117,7 @@ const Resume = () => {
             </p>
 
             <motion.a
-              href="/Ajayresume()2.pdf"
+              href="/Ajayresume(2).pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
